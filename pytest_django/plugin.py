@@ -258,7 +258,6 @@ def pytest_load_initial_conftests(early_config, parser, args):
         with _handle_import_error(_django_project_scan_outcome):
             dj_settings.DATABASES
 
-    _setup_django()
 
 
 def pytest_report_header(config):
